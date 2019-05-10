@@ -20,17 +20,17 @@ namespace NetCore.Models
                 }
                 context.Movie.AddRange(new Movies.Movie
                 {
-                    Title = "when Harry Met Sally",
+                    Title = "当Harry遇到莎莉",
                     ReleaseDate = DateTime.Parse("1989-2-12"),
                     Price = 7.99M,
-                    Genre = "Romantic",
+                    Genre = "浪漫",
                     Rating = "R"
                 },
                 new Movies.Movie
                 {
-                    Title = "Ghostbusters",
+                    Title = "捉鬼敢死队",
                     ReleaseDate = DateTime.Parse("1984-3-13"),
-                    Genre = "Comedy",
+                    Genre = "喜剧",
                     Price = 8.99M,
                     Rating = "J"
                 }
